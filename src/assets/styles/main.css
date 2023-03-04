@@ -1,0 +1,28 @@
+@import '../../../node_modules/normalize.css/normalize.css';
+
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/lora/static/Lora-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/lora/static/Lora-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/lora/static/Lora-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
