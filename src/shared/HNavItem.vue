@@ -25,5 +25,6 @@ defineProps({
   font-size: 20px;
   line-height: 26px;
   color: #B09A81;
+  text-decoration: none;
 }
 </style>
