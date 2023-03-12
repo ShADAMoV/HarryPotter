@@ -1,13 +1,13 @@
 <template>
-  <a
-    href="/home"
+  <router-link
+    to="/home"
     class="h-logo"
   >
     <img
       src="../assets/images/logo.png"
       alt="Logo"
     >
-  </a> 
+  </router-link>
 </template>
 
 <style lang="scss" scoped>

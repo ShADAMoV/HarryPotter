@@ -12,12 +12,12 @@ defineProps({
 </script>
 
 <template>
-  <a
+  <router-link
     class="h-nav-item"
-    :href="`${href}`"
+    :to="`${href}`"
   >
     {{ title }}
-  </a>
+  </router-link>
 </template>
 
 <style lang="scss" scoped>
