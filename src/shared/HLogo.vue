@@ -1,5 +1,5 @@
 <template>
-  <router-link
+  <router-lin
     to="/home"
     class="h-logo"
   >
@@ -7,7 +7,7 @@
       src="../assets/images/logo.png"
       alt="Logo"
     >
-  </router-link>
+  </router-lin>
 </template>
 
 <style lang="scss" scoped>
